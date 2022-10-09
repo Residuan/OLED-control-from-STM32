@@ -186,6 +186,31 @@ void OLED_Show32Num(unsigned char x0, unsigned char y0, unsigned char num)
 	}
 }
 
+
+void OLED_ShowTime(void)
+{
+    unsigned char second1 = 0, second2 = 0;
+    unsigned char minute1 = 0, minute2 = 0;
+    unsigned char hour1 = 0, hour2 = 0;
+
+    
+
+    OLED_Show32Num(10, 2, hour1);
+    OLED_Show32Num(26, 2, hour2);
+
+    OLED_ShowStr(42, 3, ":");
+
+    OLED_Show32Num(50, 2, minute1);
+    OLED_Show32Num(66, 2, minute2);
+
+    OLED_ShowStr(82, 3, ":");
+
+    OLED_Show32Num(90, 2, second1);
+    OLED_Show32Num(106, 2, second2);
+}
+
+
+
 void function_test(unsigned char en)
 {
     if(en)

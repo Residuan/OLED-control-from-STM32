@@ -34,6 +34,7 @@ void OLED_DrawString(unsigned char x0,unsigned char y0,unsigned char string[]);
 void OLED_ShowStr(unsigned char x, unsigned char y, unsigned char ch[]);
 void function_test(unsigned char en);
 void OLED_Show32Num(unsigned char x, unsigned char y, unsigned char num);
+void OLED_ShowTime(void);
 
 
 
