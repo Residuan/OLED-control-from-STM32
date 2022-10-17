@@ -216,10 +216,10 @@ void function_test(unsigned char en)
     if(en)
     {
         //OLED_DrawBMP(0, 0, 96, 8, BMP);//Õº∆¨≤‚ ‘
-        //OLED_ALL_Cram(0xff);
+        OLED_ALL_Cram(0xff);
         //OLED_DrawString(0, 1, capitalletter26[0]);
         //OLED_ShowStr(0, 0, "ABCDEFGHIJKLMNOPRQSTUVWXYZ!");
-        OLED_Show32Num(0, 0, 4);
+        //OLED_Show32Num(0, 0, 4);
     }
     else return;
 }

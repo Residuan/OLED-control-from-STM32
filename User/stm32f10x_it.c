@@ -23,6 +23,11 @@
 
 /* Includes ------------------------------------------------------------------*/
 #include "stm32f10x_it.h"
+#include "wifi.h"
+#include "library.h"
+#include <string.h>
+
+uint8_t extern flag;
 
 /** @addtogroup STM32F10x_StdPeriph_Template
   * @{
@@ -134,6 +139,60 @@ void PendSV_Handler(void)
   */
 void SysTick_Handler(void)
 {
+
+}
+
+
+void USART1_IRQHandler(void)
+{
+  /*uint8_t ucCh;
+	if ( USART_GetITStatus ( USART1, USART_IT_RXNE ) != RESET )
+	{
+		ucCh  = USART_ReceiveData( USART1 );
+		
+		if ( strUSART_Fram_Record .InfBit .FramLength < ( RX_BUF_MAX_LEN - 1 ) )                       //预留1个字节写结束符
+			   strUSART_Fram_Record .Data_RX_BUF [ strUSART_Fram_Record .InfBit .FramLength ++ ]  = ucCh;
+
+	}
+	 	 
+	if ( USART_GetITStatus( USART1, USART_IT_IDLE ) == SET )                                         //数据帧接收完毕
+	{
+    strUSART_Fram_Record .InfBit .FramFinishFlag = 1;		
+		
+		ucCh = USART_ReceiveData( USART1 );                                                              //由软件序列清除中断标志位(先读USART_SR，然后读USART_DR)	
+  }	*/
+
+  uint8_t ii;
+	if(USART_GetITStatus(USART1, USART_IT_RXNE) != RESET)
+	{
+		ii = USART_ReceiveData(USART1);
+		USART_SendData(USART1, ii);
+	}
+}
+
+void USART3_IRQHandler(void)
+{
+  uint8_t ucCh;
+
+  if (USART_GetITStatus(USART3, USART_IT_RXNE) != RESET)
+  {
+    ucCh = USART_ReceiveData(USART3);
+
+    if (strEsp8266_Fram_Record.InfBit.FramLength < (RX_BUF_MAX_LEN - 1)) //预留1个字节写结束符
+      strEsp8266_Fram_Record.Data_RX_BUF[strEsp8266_Fram_Record.InfBit.FramLength++] = ucCh;
+  }
+
+  if (USART_GetITStatus(USART3, USART_IT_IDLE) == SET) //数据帧接收完毕
+  {
+    strEsp8266_Fram_Record.InfBit.FramFinishFlag = 1;
+
+    ucCh = USART_ReceiveData(USART3); //由软件序列清除中断标志位(先读USART_SR，然后读USART_DR)
+
+    ucTcpClosedFlag = strstr(strEsp8266_Fram_Record.Data_RX_BUF, "CLOSED\r\n") ? 1 : 0;
+  }
+  // Usart_SendString( USART1, q);
+  flag = ucCh;
+  USART_SendData(USART1, flag);
 }
 
 /******************************************************************************/

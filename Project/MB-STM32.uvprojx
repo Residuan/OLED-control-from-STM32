@@ -369,7 +369,7 @@
               <MiscControls></MiscControls>
               <Define>USE_STDPERIPH_DRIVER,STM32F10X_HD</Define>
               <Undefine></Undefine>
-              <IncludePath>..\Libraries\CMSIS;..\Libraries\STM32F10x_StdPeriph_Driver\inc;..\User;..\User\oled;..\User\spi;..\User\systick;..\User\menu;..\User\gpio;..\User\function_control;..\User\wifi</IncludePath>
+              <IncludePath>..\Libraries\CMSIS;..\Libraries\STM32F10x_StdPeriph_Driver\inc;..\User;..\User\oled;..\User\spi;..\User\systick;..\User\menu;..\User\gpio;..\User\function_control;..\User\wifi;..\User\calculator</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -606,6 +606,11 @@
               <FileName>wifi.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\User\wifi\wifi.c</FilePath>
+            </File>
+            <File>
+              <FileName>calculator.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\User\calculator\calculator.c</FilePath>
             </File>
           </Files>
         </Group>

@@ -36,3 +36,8 @@
 .\objects\main.o: ..\User\gpio\key.h
 .\objects\main.o: ..\User\wifi\wifi.h
 .\objects\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\main.o: ..\User\function_control\control.h
+.\objects\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\main.o: ..\User\calculator\calculator.h

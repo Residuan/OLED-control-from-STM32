@@ -30,3 +30,11 @@
 .\objects\wifi.o: ..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h
 .\objects\wifi.o: ..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h
 .\objects\wifi.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\wifi.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\wifi.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\wifi.o: ..\User\systick\systick.h
+.\objects\wifi.o: ..\User\function_control\control.h
+.\objects\wifi.o: ..\User\oled\oled.h
+.\objects\wifi.o: ..\User\spi\spi.h
+.\objects\wifi.o: ..\User\library.h
+.\objects\wifi.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h

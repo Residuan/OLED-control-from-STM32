@@ -29,3 +29,13 @@
 .\objects\stm32f10x_it.o: ..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h
 .\objects\stm32f10x_it.o: ..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h
 .\objects\stm32f10x_it.o: ..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h
+.\objects\stm32f10x_it.o: ..\User\wifi\wifi.h
+.\objects\stm32f10x_it.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\stm32f10x_it.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\stm32f10x_it.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\stm32f10x_it.o: ..\User\systick\systick.h
+.\objects\stm32f10x_it.o: ..\User\function_control\control.h
+.\objects\stm32f10x_it.o: ..\User\oled\oled.h
+.\objects\stm32f10x_it.o: ..\User\spi\spi.h
+.\objects\stm32f10x_it.o: ..\User\library.h
+.\objects\stm32f10x_it.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h

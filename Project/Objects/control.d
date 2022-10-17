@@ -33,3 +33,4 @@
 .\objects\control.o: ..\User\oled\oled.h
 .\objects\control.o: ..\User\spi\spi.h
 .\objects\control.o: ..\User\library.h
+.\objects\control.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h

@@ -13,6 +13,7 @@
                 "c:\\MyFile\\STM32Prj\\OLED\\Fwlib-Template\\User\\gpio",
                 "c:\\MyFile\\STM32Prj\\OLED\\Fwlib-Template\\User\\function_control",
                 "c:\\MyFile\\STM32Prj\\OLED\\Fwlib-Template\\User\\wifi",
+                "c:\\MyFile\\STM32Prj\\OLED\\Fwlib-Template\\User\\calculator",
                 "C:\\Keil_v5\\ARM\\ARMCC\\include",
                 "C:\\Keil_v5\\ARM\\ARMCC\\include\\rw",
                 "c:\\MyFile\\STM32Prj\\OLED\\Fwlib-Template\\Libraries\\CMSIS\\startup",
