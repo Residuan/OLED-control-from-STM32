@@ -39,3 +39,4 @@
 .\objects\stm32f10x_it.o: ..\User\spi\spi.h
 .\objects\stm32f10x_it.o: ..\User\library.h
 .\objects\stm32f10x_it.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\stm32f10x_it.o: ..\User\calculator\calculator.h

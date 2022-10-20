@@ -725,7 +725,7 @@ I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x4D783BB4)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4D783BB4)
-F (..\User\main.c)(0x634A08E1)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\Libraries\CMSIS -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\User -I..\User\oled -I..\User\spi -I..\User\systick -I..\User\menu -I..\User\gpio -I..\User\function_control -I..\User\wifi -I..\User\calculator-I C:\MyFile\STM32Prj\OLED\Fwlib-Template\Project\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+F (..\User\main.c)(0x6350FE4A)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\Libraries\CMSIS -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\User -I..\User\oled -I..\User\spi -I..\User\systick -I..\User\menu -I..\User\gpio -I..\User\function_control -I..\User\wifi -I..\User\calculator-I C:\MyFile\STM32Prj\OLED\Fwlib-Template\Project\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
 I (..\Libraries\CMSIS\stm32f10x.h)(0x63414413)
 I (..\Libraries\CMSIS\core_cm3.h)(0x4D523B58)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
@@ -766,8 +766,10 @@ I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
 I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
 I (..\User\function_control\control.h)(0x6344C285)
 I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
-I (..\User\calculator\calculator.h)(0x6348CACE)
-F (..\User\stm32f10x_it.c)(0x634A08E0)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\Libraries\CMSIS -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\User -I..\User\oled -I..\User\spi -I..\User\systick -I..\User\menu -I..\User\gpio -I..\User\function_control -I..\User\wifi -I..\User\calculator-I C:\MyFile\STM32Prj\OLED\Fwlib-Template\Project\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\stm32f10x_it.o --omf_browse .\objects\stm32f10x_it.crf --depend .\objects\stm32f10x_it.d)
+I (..\User\calculator\calculator.h)(0x634E1909)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5475F2FE)
+F (..\User\stm32f10x_it.c)(0x6350B461)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\Libraries\CMSIS -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\User -I..\User\oled -I..\User\spi -I..\User\systick -I..\User\menu -I..\User\gpio -I..\User\function_control -I..\User\wifi -I..\User\calculator-I C:\MyFile\STM32Prj\OLED\Fwlib-Template\Project\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\stm32f10x_it.o --omf_browse .\objects\stm32f10x_it.crf --depend .\objects\stm32f10x_it.d)
 I (..\User\stm32f10x_it.h)(0x634372DB)
 I (..\Libraries\CMSIS\stm32f10x.h)(0x63414413)
 I (..\Libraries\CMSIS\core_cm3.h)(0x4D523B58)
@@ -807,6 +809,7 @@ I (..\User\oled\oled.h)(0x6340C73A)
 I (..\User\spi\spi.h)(0x633CD9B4)
 I (..\User\library.h)(0x634243DE)
 I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (..\User\calculator\calculator.h)(0x634E1909)
 F (..\User\oled\oled.c)(0x63438D13)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\Libraries\CMSIS -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\User -I..\User\oled -I..\User\spi -I..\User\systick -I..\User\menu -I..\User\gpio -I..\User\function_control -I..\User\wifi -I..\User\calculator-I C:\MyFile\STM32Prj\OLED\Fwlib-Template\Project\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\oled.o --omf_browse .\objects\oled.crf --depend .\objects\oled.d)
 I (..\User\oled\oled.h)(0x6340C73A)
 I (..\Libraries\CMSIS\stm32f10x.h)(0x63414413)
@@ -1042,8 +1045,8 @@ I (..\User\oled\oled.h)(0x6340C73A)
 I (..\User\spi\spi.h)(0x633CD9B4)
 I (..\User\library.h)(0x634243DE)
 I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
-F (..\User\calculator\calculator.c)(0x634A08E1)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\Libraries\CMSIS -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\User -I..\User\oled -I..\User\spi -I..\User\systick -I..\User\menu -I..\User\gpio -I..\User\function_control -I..\User\wifi -I..\User\calculator-I C:\MyFile\STM32Prj\OLED\Fwlib-Template\Project\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\calculator.o --omf_browse .\objects\calculator.crf --depend .\objects\calculator.d)
-I (..\User\calculator\calculator.h)(0x6348CACE)
+F (..\User\calculator\calculator.c)(0x6350B462)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\Libraries\CMSIS -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\User -I..\User\oled -I..\User\spi -I..\User\systick -I..\User\menu -I..\User\gpio -I..\User\function_control -I..\User\wifi -I..\User\calculator-I C:\MyFile\STM32Prj\OLED\Fwlib-Template\Project\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\calculator.o --omf_browse .\objects\calculator.crf --depend .\objects\calculator.d)
+I (..\User\calculator\calculator.h)(0x634E1909)
 I (..\Libraries\CMSIS\stm32f10x.h)(0x63414413)
 I (..\Libraries\CMSIS\core_cm3.h)(0x4D523B58)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)

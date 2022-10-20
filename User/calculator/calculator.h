@@ -5,8 +5,9 @@
 #include "wifi.h"
 
 
-uint8_t *GetAllNumData(void);
-void shuzutest(void);
+
+//void GetAllNumData(void);
+
 
 
 
